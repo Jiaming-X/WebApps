@@ -3,18 +3,13 @@
 <head>
     <title>Toys for Shots</title>
 
-    <!-- CSS -->
-    <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="css/starter-template.css" rel="stylesheet"/>
-    <link href="css/style.css" rel="stylesheet"/>
 
-    <!-- JavaScript -->
+    <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../static/css/starter-template.css" rel="stylesheet" th:href="@{/css/starter-template.css}"/>
+    <link href="../static/css/style.css" rel="stylesheet" th:href="@{/css/style.css}"/>
+
+
     <script src="webjars/jquery/2.2.3/jquery.min.js" type="application/javascript"></script>
-    <script>
-        $(function() {
-            //alert('document ready...')
-        });
-    </script>
 </head>
 <body>
 
@@ -40,6 +35,8 @@
     </div>
 </nav>
 
+
+
 <div class="container">
 
     <div class="centered_title">
@@ -55,10 +52,10 @@
         <p>渴望意外的刺激,</p>
         <p>渴望出类拔萃, </p>
         <p>这都是年轻人的特点.</p>
-        <p class="login_pictures_info">         --九三年 序</p>
     </div>
-
 </div><!-- /.container -->
+
+
 
 </body>
 </html>
