@@ -1,0 +1,5 @@
+com/myapp/controller/PageController.class
+com/myapp/ServletInitializer.class
+com/myapp/MyAppApplication.class
+com/myapp/controller/CustomErrorController.class
+com/myapp/domain/Post.class
